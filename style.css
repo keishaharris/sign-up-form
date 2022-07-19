@@ -87,7 +87,6 @@ section {
   display: flex;
   flex-direction: column;
   padding: 15px;
-  
 }
 
 label {
@@ -101,7 +100,7 @@ input {
   padding: 5px 35px 5px 5px;
   border: 1px solid #dadbdc;
   border-radius: 2px;
-  outline:none;
+  outline: none;
   transition: 1s;
 }
 
@@ -129,10 +128,10 @@ a:visited {
   font-weight: 600;
 }
 
-a:hover{
-
+button:hover,
+a:hover {
+  cursor: pointer;
 }
-
 
 .submit-ctn {
   padding: 30px;
