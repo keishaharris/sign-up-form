@@ -130,3 +130,9 @@ a:active, a:link, a:visited{
 .submit-ctn > button{
     margin-bottom: 20px;
 }
+
+.err-msg{
+    color:red;
+    font-size: 0.5rem;
+    display:none;
+}
