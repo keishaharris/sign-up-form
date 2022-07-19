@@ -1,55 +1,132 @@
-:root {
-  background-color: #223c70;
-  color: #1c8d0e;
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
 }
-
-.container {
+.main-ctn {
   display: flex;
+  height: 100vh;
   justify-content: center;
-  align-self: center;
-  border: 5px solid #6e001f;
-  overflow: hidden;
+  background-color: #F2F5F6;
 }
 
-.student-image {
-  width: 500px;
-  height: auto;
-}
-
-.book-stack-image {
-  opacity: 0.5;
-  width: 50px;
-  padding-right: 5px;
-}
 .image-ctn {
-  position: relative;
-
+  background-image: url("bg.jpeg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .title-ctn {
-  background-color: rgb(23, 41, 53, 0.7);
-  padding: 30px 0px;
-  width: 500px;
-  justify-content: center;
-  position: absolute;
-  top: 200px;
   display: flex;
+  background-color: rgb(0, 0, 0, 0.4);
+  padding: 20px 100px;
+  margin-top: 300px;
+}
+
+.title-image {
+  height: 150px;
+  width: auto;
 }
 
 h1 {
-  font-size: 30px;
-  font-family: "Roboto Mono", monospace;
-  opacity: 0.6;
+  color: white;
+  font-family: 'Bungee', cursive;
+  font-size: 100px;
+  letter-spacing: 3px;
 }
 
 .info-ctn {
-  width: 500px;
-  background-color: #024784;
+display:flex;
+flex-direction: column;
 }
 
-p {
-  background-color: rgb(23, 41, 53, 0.2);
-  color: rgb(255, 255, 255, 0.5);
-  margin: 10px;
-  padding: 30px;
+
+.content-1{
+margin-top:90px;
+
+line-height: 25px;
+font-weight:400;
+font-size: 20px;
+}
+
+.ctn{
+    padding: 30px 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+section{
+   background-color: #fff;
+   padding: 15px 15px 15px 30px;
+}
+
+.form-ctn{
+    background: #fff;
+    box-shadow: 0px 5px 10px #E8E8E9;
+    display: flex;
+    padding: 0px 0px 10px 18px;
+}
+
+
+
+.left{
+    margin-right: 50px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+label{
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-bottom: 2px;
+    letter-spacing: 2px;
+}
+
+input{
+    padding: 5px 35px 5px 5px;
+    border: 1px solid #DADBDC;
+    border-radius:2px;
+}
+
+input:focus{
+    border: 1px solid blue;
+    box-shadow: 2px 2px 5px #596D48;
+}
+
+#password:invalid{
+    border: 1px solid red;
+}
+
+button{
+    background-color: #596D48;
+    color:white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+a:active, a:link, a:visited{
+    color:#596D48;
+    text-decoration: none;
+    font-weight:500;
+}
+
+.submit-ctn{
+    padding:30px;
+}
+
+.submit-ctn > button{
+    margin-bottom: 20px;
 }
