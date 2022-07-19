@@ -112,12 +112,13 @@ input:focus {
 button {
   background-color: #6b3230;
   color: white;
-  font-size: 12px;
+  font-size: 8px;
   font-weight: bold;
   padding: 10px 30px;
   border-style: none;
   border-radius: 5px;
   margin-bottom: 20px;
+  font-family:'PS';
 }
 
 a:active,
